@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cherryDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    background-color: var(--pink);
+    margin-top: 3rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: var(--themeRed);
+}
+
+.heroText{
+   display: flex;
+   flex-direction: column;
+   font-size: 3.5rem;
+   font-weight: bold;
+}
+
+.miniText{
+    width: 70%;
+    color: var(--gray);
+    font-weight: 600;
+}
+
+.btn{
+    padding: 1rem 2rem;
+}
+
+.right{
+    position: relative;
+}
+.imageContainer{
+    width: 40rem;
+}
+
+.ContactUs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: max-content;
+    top: 30%;
+    left: 5rem;
+    padding: 0.5rem;
+    border-radius: 5rem;
+    background-color: white;
+    box-shadow: var(--shadow);
+    color: var(--themeRed);
+    gap: 1rem;
+    font-weight: 500;
+    
+}
+
+.ContactUs>div{
+    background: rgb(59,208,59);
+    border-radius: 50%;
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem
+}
+
+.ContactUs:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
