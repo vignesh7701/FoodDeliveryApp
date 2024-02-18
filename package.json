@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "@iconscout/react-unicons": "^2.0.2",
+    "@sanity/client": "^6.13.3",
+    "@sanity/image-url": "^1.0.2",
     "next": "14.1.0",
+    "next-sanity-client": "^1.0.8",
     "react": "^18",
     "react-dom": "^18"
   },

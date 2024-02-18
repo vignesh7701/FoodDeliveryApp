@@ -34,7 +34,7 @@ export default () => {
         <div className={css.ContactUs}>
           <span>Contact Us</span>
           <div>
-            <UilPhone color="white" />
+            <UilPhone color="white"f />
           </div>
         </div>
       </div>
