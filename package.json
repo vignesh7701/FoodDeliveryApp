@@ -10,12 +10,15 @@
   },
   "dependencies": {
     "@iconscout/react-unicons": "^2.0.2",
+    "@mantine/core": "^7.5.3",
     "@sanity/client": "^6.13.3",
     "@sanity/image-url": "^1.0.2",
     "next": "14.1.0",
     "next-sanity-client": "^1.0.8",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
+    "zustand": "^4.5.1"
   },
   "devDependencies": {
     "eslint": "^8",

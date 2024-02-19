@@ -33,23 +33,48 @@
 .size{
     display: flex;
     gap: 3rem;
-    font-weight: 600;
-    font-style:0.6rem;
+    font-weight: 700; 
+    font-size:2rem;
 }
 
 
-.sizeVariants{
+.SizeVariant{
     display: flex;
     font-weight: normal;
-    font-size: 0.4rem;
+    font-size: 0.8rem;
     gap: 0.6rem;
 }
 
-.sizeVariants > div{
+.SizeVariant > div{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0.3rem 1.5rem;
     border: 2px solid var(--themeRed);
     border-radius: 1rem;
+    
 } 
+
+.SizeVariant > div:hover{
+    background-color: var(--themeRed);      
+    color: white;
+    cursor: pointer;
+}
+
+.quantity{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;   
+}
+
+.counter{
+    display: flex;
+    gap: 1rem;
+}
+.btn{
+    padding: 0.5rem 1rem;
+    font-weight: normal;
+    font-size: 1rem;
+}
