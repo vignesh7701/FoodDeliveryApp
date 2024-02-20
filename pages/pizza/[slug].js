@@ -78,7 +78,6 @@ const addPizza = useStore((state)=>state.addPizza)
           </div>
 
           <div className={css.quantity}>
-            <span>{Quantity}</span>
             <div className={css.counter}>
               <Image
                 src={LeftArrow}
@@ -101,9 +100,11 @@ const addPizza = useStore((state)=>state.addPizza)
             </div>
           </div>
 
-          <div className={`btn ${css.btn}`} onClick={addToCart}>Add to Cart</div>
+          <div className={`btn ${css.btn}`} onClick={addToCart}>
+            Add to Cart
+          </div>
         </div>
-        <Toaster/>
+        <Toaster />
       </div>
     </Layout>
   );
